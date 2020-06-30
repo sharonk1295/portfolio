@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rufina&display=swap');
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -7,6 +9,11 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background-image: url('../images/candidate1.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; */
+  height: 100vh;
 }
 article,
 aside,

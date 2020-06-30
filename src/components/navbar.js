@@ -1,12 +1,14 @@
 import React from "react"
 import {Link} from "gatsby"
-import Layout from "./layout"
+
 
 const Navbar = () => (
     <div>
         <ul>
             <Link to="/">Home</Link>
-            <Link to="/page-2">Page-2</Link>
+            <Link to="/about">About</Link>
+            <Link to="/projects">Projects</Link>
+            <Link to="/contact">Contact</Link>
         </ul>
     </div>
 )

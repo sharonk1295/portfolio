@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700');
+
+
+.navbar {
+    text-align: center;
+    border: double black 3px;
+    margin-bottom: 2rem;
+}
+.navbar ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-item {
+    color: gray;
+    margin-bottom: -.95rem;
+    margin-top: .4rem;
+    font-family: 'Playfair Display SC', serif;
+    letter-spacing: 1px;
+}
+.nav-item:hover {
+    text-decoration: none;
+    color: purple
+}
+.active-link {
+    color: gray;
+    text-shadow: lightgray 1px 1px;
+    text-decoration: line-through white;
+    /* background-color: lightgray; */
+    /* padding-left: 5px;
+    padding-right: 5px; */
+    /* padding: 3px 6px; */
+}

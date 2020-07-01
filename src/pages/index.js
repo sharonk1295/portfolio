@@ -9,7 +9,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi Sharon</h1>
+    <h1 style={{
+      fontFamily: `Barlow Semi Condensed, sans-serif`,
+      letterSpacing: `1px`
+    }}>Hi Sharon</h1>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
   </Layout>

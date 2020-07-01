@@ -15,6 +15,7 @@ const About = (props) => (
   <Layout>
     <SEO title="About" />
     <h1 style={{
+      fontFamily: `Barlow Semi Condensed, sans-serif`,
       letterSpacing: `1px`
     }}>Who is Sharon?</h1>
     <p style={{

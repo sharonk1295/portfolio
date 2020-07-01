@@ -14,7 +14,7 @@ const Header = ({ siteTitle }) => (
       style={{
         margin: `0 auto`,
         maxWidth: 960,
-        padding: `3rem 1.0875rem`,
+        padding: `2.5rem 1.0875rem`,
       }}
     >
       <h1 className="name_title" style={{ margin: 0 }}>
@@ -22,19 +22,23 @@ const Header = ({ siteTitle }) => (
           to="/"
           style={{
             color: `white`,
+            textShadow: `whitesmoke 2px 1px`,
             textDecoration: `none`,
-            fontSize: `90px`,
+            fontSize: `100px`,
             letterSpacing: `1px`,
-            // fontFamily: `Rufina, serif`
-            fontFamily: `Antic Didone, serif`,
+            fontFamily: `Playfair Display SC, serif`,
           }}
         >
           {siteTitle}
         </Link>
       </h1>
       <p style={{
-        color: `gray`
-      }}>Software Engineer | Full-stack Developer</p>
+        color: `gray`,
+        fontWeight: `600`,
+        fontFamily: `Abel, sans-serif`,
+      }}>Software Engineer <span style={{
+        color: `purple`
+      }}>|</span> Full-stack Developer</p>
     </div>
   </header>
 )

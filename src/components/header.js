@@ -6,7 +6,8 @@ const Header = ({ siteTitle }) => (
   <header
     style={{
       background: `linear-gradient(0deg, rgba(248,249,251,0) 0%, rgba(228,195,209,1) 95%)`,
-      marginBottom: `1.45rem`,
+      // marginBottom: `0.4rem`,
+      textAlign: `center`
     }}
   >
     <div
@@ -16,14 +17,16 @@ const Header = ({ siteTitle }) => (
         padding: `3rem 1.0875rem`,
       }}
     >
-      <h1 style={{ margin: 0 }}>
+      <h1 className="name_title" style={{ margin: 0 }}>
         <Link
           to="/"
           style={{
             color: `white`,
             textDecoration: `none`,
-            fontSize: `70px`,
-            fontFamily: `Rufina, serif`
+            fontSize: `90px`,
+            letterSpacing: `1px`,
+            // fontFamily: `Rufina, serif`
+            fontFamily: `Antic Didone, serif`,
           }}
         >
           {siteTitle}

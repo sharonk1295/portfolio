@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rufina&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rufina&family=Antic+Didone');
 
 html {
   font-family: sans-serif;
@@ -14,6 +14,10 @@ body {
   background-position: center;
   background-size: cover; */
   height: 100vh;
+  /* display: flex;
+  flex-direction: column; */
+  /* padding-bottom: 2.5rem;
+  position: relative */
 }
 article,
 aside,
@@ -622,8 +626,13 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
+
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
   }
+  /* .name_title {
+    /* font-size: 50px;
+    color: orange
+  } */
 }

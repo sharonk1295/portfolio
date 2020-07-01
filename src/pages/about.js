@@ -7,33 +7,40 @@ import Img from "gatsby-image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+const capStyle = {
+  textShadow: `1px 1px gray`
+}
 
 const About = (props) => (
   <Layout>
     <SEO title="About" />
-    <h1>Who is Sharon?</h1>
-    <p>Welcome to the about page. I am a developer and blahblahblah. However, there is more to me, don't be a stranger and get to know me!</p>
+    <h1 style={{
+      letterSpacing: `1px`
+    }}>Who is Sharon?</h1>
+    <p style={{
+      marginBottom: `2rem`
+    }}>I am a software engineer based in NYC, with a knack for solving problems. Being multi-disciplined, you can expect to see me engaging in other activities when I'm not coding by my desk. Don't be a stranger and get to know the many hats I wear!</p>
 
     <Carousel>
       <Carousel.Item>
         <Img fluid={props.data.image1.childImageSharp.fluid} alt="in the teacher role" />
         <Carousel.Caption>
           <h3>Sharon as a teacher</h3>
-          <p>She used to teach kids at an after school and really adores kids.</p>
+          <p style={capStyle}>Pursuing my adoration for kids, I used to teach at an after school.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <Img fluid={props.data.image2.childImageSharp.fluid} alt="in the dancer role" />
         <Carousel.Caption>
           <h3>Sharon as a dancer</h3>
-          <p>Dancing for over a decade now, she really finds joy in expressing herself through movement and performance.</p>
+          <p style={capStyle}>Dancing for over a decade now, I find joy in expressing myself through movement and performance.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <Img fluid={props.data.image3.childImageSharp.fluid} alt="in the adventurer role" />
         <Carousel.Caption>
           <h3>Sharon as an adventurer</h3>
-          <p>Just like how coding was a new journey for her, she really enjoys exploring new expeditions and staying active.</p>
+          <p style={capStyle}>Just like how coding was a new journey for me, I appreciate exploring new expeditions and staying active.</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

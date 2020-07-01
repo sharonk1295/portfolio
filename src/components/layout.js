@@ -37,10 +37,18 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+        <footer style={{
+            flex: `1 0 auto`,
+            textAlign: `center`,
+            paddingTop: `45px`,
+            // position: `absolute`,
+            // bottom: `0`, 
+            // width: `100%`,
+            // height: `2.5rem`
+        }}>
+          Sharon Kim <span style={{
+            color: `#AC00FF`
+          }}>© 2020</span>
         </footer>
       </div>
     </>

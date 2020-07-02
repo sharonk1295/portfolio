@@ -2,6 +2,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
+
 const Header = ({ siteTitle }) => (
   <header
     style={{
@@ -17,7 +18,7 @@ const Header = ({ siteTitle }) => (
         padding: `2.5rem 1.0875rem`,
       }}
     >
-      <h1 className="name_title" style={{ margin: 0 }}>
+      <h1 className="name-title" style={{ margin: 0 }}>
         <Link
           to="/"
           style={{
@@ -38,7 +39,7 @@ const Header = ({ siteTitle }) => (
         fontFamily: `Abel, sans-serif`,
       }}>Software Engineer <span style={{
         color: `purple`
-      }}>|</span> Full-stack Developer</p>
+      }}>|</span> Full-Stack Developer</p>
     </div>
   </header>
 )

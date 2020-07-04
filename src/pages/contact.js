@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { FaLinkedin, FaMediumM } from "react-icons/fa"
 import { MdEmail } from "react-icons/md"
+import {IconContext } from "react-icons"
 
 const Contact = () => (
   <Layout>
@@ -14,9 +15,11 @@ const Contact = () => (
       letterSpacing: `1px`
     }}>Let's Connect!</h1>
     <p>Want to work together? Have a question? Feel free to reach me via:</p>
+    <IconContext.Provider value={{color: `pink`, size: `2rem`}}>
     <a href="https://www.linkedin.com/in/sharon-kim-sk/" target="_blank" rel="noreferrer"><FaLinkedin /></a>
     <MdEmail />
     <FaMediumM />
+    </IconContext.Provider>
   </Layout>
 )
 

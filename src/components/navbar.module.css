@@ -25,8 +25,20 @@
     color: gray;
     text-shadow: lightgray 1px 1px;
     text-decoration: line-through white;
-    /* background-color: lightgray; */
-    /* padding-left: 5px;
-    padding-right: 5px; */
-    /* padding: 3px 6px; */
+}
+
+@media only screen and (max-width: 460px) {
+    .navbar ul {
+        justify-content: space-around;
+        margin-left: 0;
+    }
+    .nav-item {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .nav-item {
+        font-size: 14px;
+    }
 }

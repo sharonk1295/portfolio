@@ -1,0 +1,16 @@
+.projects-title {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    letter-spacing: 1px;
+}
+.card {
+    width: 18rem;
+    margin-right: 3rem;
+}
+.card-title {
+    color: purple;
+    font-weight: 700;
+}
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}

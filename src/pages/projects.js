@@ -9,47 +9,40 @@ import Img from "gatsby-image"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import projectStyle from "./projects.module.css"
 
-const buttonStyle = {
-  display: `flex`,
-  justifyContent: `space-around`
-}
 
 const ProjectsPage = (props) => (
   <Layout>
     <SEO title="Projects" />
-    <h1 style={{
-      fontFamily: `Barlow Semi Condensed, sans-serif`,
-      letterSpacing: `1px`
-    }}>Hi from the projects page</h1>
-    <p>Display projects here</p>
+    <h1 className={projectStyle.projectsTitle}
+    >PROJECTS</h1>
+    <p>Curating my curiosity of new technologies, I am always learning and building new apps, so come back soon to view more!</p>
 
     <CardDeck className="col-sm-auto">
-      <Card style={{ width: '18rem', marginRight: `3rem` }}>
+      <Card className={projectStyle.card} className="shadow p-3 mb-5 bg-white rounded">
         <Img style={{ height: `17rem`}} variant="top" fluid={props.data.project1.childImageSharp.fluid} />
         <Card.Body>
-          <Card.Title style={{
-            color: `purple`,
-            fontWeight: `700`,
-          }}>Odd One Out!</Card.Title>
+          <Card.Title className={projectStyle.cardTitle}
+          >Odd One Out!
+          </Card.Title>
           <Card.Text>
             Project 1: A trivia game built using HTML, CSS, JavaScript, and jQuery. User must find the odd character/item out of desired category.
           </Card.Text>
-          <div style={buttonStyle}><Button variant="info" href="https://sharonk1295.github.io/Odd-One-Out/" target="_blank">Live</Button>
+          <div className={projectStyle.buttons}><Button variant="info" href="https://sharonk1295.github.io/Odd-One-Out/" target="_blank">Live</Button>
           <Button variant="info" href="https://github.com/sharonk1295/Odd-One-Out" target="_blank">GitHub Code</Button></div>
         </Card.Body>
       </Card>
-      <Card style={{ width: '18rem' }}>
+      <Card className={projectStyle.card} className="shadow p-3 mb-5 bg-white rounded">
         <Img style={{ height: `17rem`}} variant="top" fluid={props.data.project2.childImageSharp.fluid} />
         <Card.Body>
-          <Card.Title style={{
-            color: `purple`,
-            fontWeight: `700`,
-          }}>What's On Your Vanity?</Card.Title>
+          <Card.Title className={projectStyle.cardTitle}>
+            What's On Your Vanity?
+          </Card.Title>
           <Card.Text>
             Project 2: A MERN-stack app built with full CRUD functionality. User is able to keep track of his/her skincare products (very useful for skincare junkies!)  
           </Card.Text>
-          <div style={buttonStyle}><Button variant="info" href="https://sharonkim-unit2-project.herokuapp.com/" target="_blank">Live</Button>
+          <div className={projectStyle.buttons}><Button variant="info" href="https://sharonkim-unit2-project.herokuapp.com/" target="_blank">Live</Button>
           <Button variant="info" href="https://github.com/sharonk1295/project_2" target="_blank">GitHub Code</Button></div>
         </Card.Body>
       </Card>

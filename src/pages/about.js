@@ -20,7 +20,7 @@ const About = (props) => (
     }}>Who is Sharon?</h1>
     <p style={{
       marginBottom: `2rem`
-    }}>I am a software engineer based in NYC, with a knack for solving problems. Being multi-disciplined, you can expect to see me engaging in other activities when I'm not coding by my desk. Don't be a stranger and get to know the many hats I wear!</p>
+    }}>I am a software engineer based in NYC, with a knack for solving problems. Being multi-disciplined, you can expect to see me engaging in other activities when I'm not coding by my desk. Don't be a stranger and get to know the other many hats I wear!</p>
 
     <Carousel>
       <Carousel.Item>

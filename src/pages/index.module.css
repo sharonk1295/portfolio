@@ -1,0 +1,58 @@
+.background {
+    /* height: 90vh;
+    width: 100%; */
+    height: 80vh;
+    padding: 5rem 3rem;
+}
+.background h1 {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    letter-spacing: 1px;
+    color: beige;
+    text-shadow: whitesmoke 1px 1px;
+}
+.background p {
+    color: beige;
+    font-weight: 600;
+}
+.background button {
+    padding: 5px 6px;
+    border-radius: 10px;
+    background-color: rgba(211, 138, 201, 0.781);
+    outline: none;
+    border: rgba(226, 152, 202, 0.897);
+    border-style: groove;
+}
+.background button:hover {
+    background-color: rgba(245, 245, 245, 0.8);
+    border: whitesmoke;
+    border-style: groove;
+}
+.background button:hover a {
+    color: rgb(2, 0, 128);
+    text-decoration: none;
+}
+.background button a {
+    color: whitesmoke;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 460px) {
+    .background {
+        padding: 3rem 1rem;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .background {
+        padding: 2rem 1rem;
+    }
+    .background h1 {
+        font-size: 27px;
+    }
+    .background p {
+        font-size: 14px;
+    }
+    .background button {
+        padding: 2px 3px;
+    }
+}

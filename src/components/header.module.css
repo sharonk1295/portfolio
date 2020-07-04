@@ -1,5 +1,7 @@
 .header {
-    background: linear-gradient(0deg, rgba(248,249,251,0) 0%, rgba(228,195,209,1) 95%);
+    background: linear-gradient(0deg, rgba(248,249,251,0) 0%, rgba(87, 65, 78, 0.815) 95%);
+    /* rgba(228,195,209,1) */
+    /* rgba(216, 164, 196, 0.815) */
     /* margin-bottom: 0.4rem; */
     text-align: center;
 }

@@ -11,7 +11,8 @@
     justify-content: space-evenly;
 }
 .nav-item {
-    color: gray;
+    color: rgb(141, 140, 140);
+    text-shadow: gray 1px 1px;
     margin-bottom: -.95rem;
     margin-top: .4rem;
     font-family: 'Playfair Display SC', serif;

@@ -48,7 +48,7 @@ const Layout = ({ children }) => {
             // height: `2.5rem`
         }}>
           Sharon Kim <span style={{
-            color: `#E77A91`
+            color: `rgb(224, 73, 161)`
           }}>© 2020</span>
         </footer>
       </div>

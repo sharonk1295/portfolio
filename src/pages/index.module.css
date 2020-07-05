@@ -7,17 +7,18 @@
 .background h1 {
     font-family: 'Barlow Semi Condensed', sans-serif;
     letter-spacing: 1px;
-    color: beige;
-    text-shadow: whitesmoke 1px 1px;
+    color: rgb(129, 123, 129);
+    /* text-shadow: whitesmoke 1px 1px; */
+    text-shadow: rgb(235, 173, 214) 1px 1px;
 }
 .background p {
-    color: beige;
+    color: rgb(129, 123, 129);
     font-weight: 600;
 }
 .background button {
     padding: 5px 6px;
-    border-radius: 10px;
-    background-color: rgba(211, 138, 201, 0.781);
+    border-radius: 10px; 
+    background-color: rgba(224, 73, 161, 0.781);
     outline: none;
     border: rgba(226, 152, 202, 0.897);
     border-style: groove;
@@ -28,7 +29,7 @@
     border-style: groove;
 }
 .background button:hover a {
-    color: rgb(2, 0, 128);
+    color: rgb(128, 0, 90);
     text-decoration: none;
 }
 .background button a {

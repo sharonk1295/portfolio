@@ -2,9 +2,15 @@
     font-family: 'Barlow Semi Condensed', sans-serif;
     letter-spacing: 1px;
 }
+.card-deck {
+    display: flex;
+    flex-flow: row wrap;
+}
 .card {
     width: 18rem;
     margin-right: 3rem;
+    white-space: nowrap;
+    height: 5rem;
 }
 .card-title {
     color: purple;

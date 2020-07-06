@@ -1,26 +1,24 @@
 .background {
-    /* height: 90vh;
-    width: 100%; */
     height: 80vh;
     padding: 5rem 3rem;
 }
 .background h1 {
     font-family: 'Barlow Semi Condensed', sans-serif;
     letter-spacing: 1px;
-    color: rgb(129, 123, 129);
-    /* text-shadow: whitesmoke 1px 1px; */
-    text-shadow: rgb(235, 173, 214) 1px 1px;
+    color: rgb(83, 81, 83);
+    text-shadow: white 1px 1px;
 }
 .background p {
-    color: rgb(129, 123, 129);
+    color: rgb(83, 81, 83);
     font-weight: 600;
+    text-shadow: white 1px 1px;
 }
 .background button {
     padding: 5px 6px;
     border-radius: 10px; 
     background-color: rgba(224, 73, 161, 0.781);
     outline: none;
-    border: rgba(226, 152, 202, 0.897);
+    border: rgba(233, 133, 201, 0.897);
     border-style: groove;
 }
 .background button:hover {

@@ -19,7 +19,7 @@ const ProjectsPage = (props) => (
     >PROJECTS</h1>
     <p>Curating my curiosity of new technologies, I am always learning and building new apps, so come back soon to view more!</p>
 
-    <CardDeck className="col-sm-auto">
+    <CardDeck className={projectStyle.cardDeck}>
       <Card className={projectStyle.card} className="shadow p-3 mb-5 bg-white rounded">
         <Img style={{ height: `17rem`}} variant="top" fluid={props.data.project1.childImageSharp.fluid} />
         <Card.Body>
@@ -29,8 +29,8 @@ const ProjectsPage = (props) => (
           <Card.Text>
             Project 1: A trivia game built using HTML, CSS, JavaScript, and jQuery. User must find the odd character/item out of desired category.
           </Card.Text>
-          <div className={projectStyle.buttons}><Button variant="info" href="https://sharonk1295.github.io/Odd-One-Out/" target="_blank">Live</Button>
-          <Button variant="info" href="https://github.com/sharonk1295/Odd-One-Out" target="_blank">GitHub Code</Button></div>
+          <div className={projectStyle.buttons}><Button variant="info" href="https://sharonk1295.github.io/Odd-One-Out/" target="_blank" rel="noreferrer">Live</Button>
+          <Button variant="info" href="https://github.com/sharonk1295/Odd-One-Out" target="_blank" rel="noreferrer">GitHub Code</Button></div>
         </Card.Body>
       </Card>
       <Card className={projectStyle.card} className="shadow p-3 mb-5 bg-white rounded">
@@ -42,8 +42,21 @@ const ProjectsPage = (props) => (
           <Card.Text>
             Project 2: A MERN-stack app built with full CRUD functionality. User is able to keep track of his/her skincare products (very useful for skincare junkies!)  
           </Card.Text>
-          <div className={projectStyle.buttons}><Button variant="info" href="https://sharonkim-unit2-project.herokuapp.com/" target="_blank">Live</Button>
-          <Button variant="info" href="https://github.com/sharonk1295/project_2" target="_blank">GitHub Code</Button></div>
+          <div className={projectStyle.buttons}><Button variant="info" href="https://sharonkim-unit2-project.herokuapp.com/" target="_blank" rel="noreferrer">Live</Button>
+          <Button variant="info" href="https://github.com/sharonk1295/project_2" target="_blank" rel="noreferrer">GitHub Code</Button></div>
+        </Card.Body>
+      </Card>
+      <Card className={projectStyle.card} className="shadow p-3 mb-5 bg-white rounded">
+        <Img style={{ height: `17rem`}} variant="top" fluid={props.data.project4.childImageSharp.fluid} />
+        <Card.Body>
+          <Card.Title className={projectStyle.cardTitle}>
+            A Dietitian's Blog
+          </Card.Title>
+          <Card.Text>
+            Project 3: A website built for a clinical dietitian/ nutritionist. Built using Gatsby, GraphQL, and Contentful for the client to easily maintain a blog on her own.
+          </Card.Text>
+          <div className={projectStyle.buttons}><Button variant="info" href="https://sungeunsul.netlify.app/" target="_blank" rel="noreferrer">Live</Button>
+          <Button variant="info" href="https://github.com/sharonk1295/project-4-sungeun" target="_blank" rel="noreferrer">GitHub Code</Button></div>
         </Card.Body>
       </Card>
     </CardDeck>
@@ -60,6 +73,13 @@ export const query = graphql`
       }
     }
     project2: file(relativePath: { eq: "Vanity.png"}) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    project4: file(relativePath: { eq: "project4.png" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid

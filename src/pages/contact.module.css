@@ -1,0 +1,14 @@
+.header {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    letter-spacing: 1px
+}
+.options {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem 0rem;
+}
+.options-title {
+    text-align: center;
+    font-style: italic;
+    margin-top: 7rem;
+}

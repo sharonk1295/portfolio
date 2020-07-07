@@ -14,10 +14,10 @@ const Contact = () => (
       Let's Connect!
     </h1>
     <p>Want to work together? Have a question? Feel free to reach me at &nbsp;
-      <IconContext.Provider value={{color: `pink`}}>
+      <IconContext.Provider value={{color: `pink`, size: `1.5rem`}}>
         <MdEmail />
       </IconContext.Provider>
-       sharonk1295@gmail.com</p>
+       <b>sharonk1295@gmail.com</b></p>
     <p className={contactStyles.optionsTitle}>You can also connect with me via:</p>
     <div className={contactStyles.options}>
       <IconContext.Provider value={{color: `pink`, size: `4rem`}}>

@@ -29,7 +29,7 @@ const ProjectsPage = (props) => (
           <Card.Text>
             Project 1: A trivia game built using HTML, CSS, JavaScript, and jQuery. User must find the odd character/item out of desired category.
           </Card.Text>
-          <div className={projectStyle.buttons}><Button variant="info" href="https://sharonk1295.github.io/Odd-One-Out/" target="_blank" rel="noreferrer">Live</Button>
+          <div className={projectStyle.buttons}><Button variant="info" href="https://sharonk1295.github.io/Odd-One-Out/" target="_blank" rel="noreferrer">Live Site</Button>
           <Button variant="info" href="https://github.com/sharonk1295/Odd-One-Out" target="_blank" rel="noreferrer">GitHub Code</Button></div>
         </Card.Body>
       </Card>
@@ -42,7 +42,7 @@ const ProjectsPage = (props) => (
           <Card.Text>
             Project 2: A MERN-stack app built with full CRUD functionality. User is able to keep track of his/her skincare products (very useful for skincare junkies!)  
           </Card.Text>
-          <div className={projectStyle.buttons}><Button variant="info" href="https://sharonkim-unit2-project.herokuapp.com/" target="_blank" rel="noreferrer">Live</Button>
+          <div className={projectStyle.buttons}><Button variant="info" href="https://sharonkim-unit2-project.herokuapp.com/" target="_blank" rel="noreferrer">Live Site</Button>
           <Button variant="info" href="https://github.com/sharonk1295/project_2" target="_blank" rel="noreferrer">GitHub Code</Button></div>
         </Card.Body>
       </Card>
@@ -55,7 +55,7 @@ const ProjectsPage = (props) => (
           <Card.Text>
             Project 3: A website built for a clinical dietitian/ nutritionist. Built using Gatsby, GraphQL, and Contentful for the client to easily maintain a blog on her own.
           </Card.Text>
-          <div className={projectStyle.buttons}><Button variant="info" href="https://sungeunsul.netlify.app/" target="_blank" rel="noreferrer">Live</Button>
+          <div className={projectStyle.buttons}><Button variant="info" href="https://sungeunsul.netlify.app/" target="_blank" rel="noreferrer">Live Site</Button>
           <Button variant="info" href="https://github.com/sharonk1295/project-4-sungeun" target="_blank" rel="noreferrer">GitHub Code</Button></div>
         </Card.Body>
       </Card>

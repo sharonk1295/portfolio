@@ -20,7 +20,7 @@ const ProjectsPage = (props) => (
     <p>Utilized technologies such as HTML5, CSS, JavaScript, React, Express, MongoDB, Gatsby, etc. Curating my curiosity of new technologies, I am always learning and building new apps, so come back soon to view more!</p>
 
     <CardDeck className={projectStyle.cardDeck}>
-      <Card className={projectStyle.card} className="shadow p-3 mb-5 bg-white rounded">
+      <Card className={projectStyle.card} className="shadow p-3 mb-5 bg-white rounded" style={{minWidth:"20rem", maxWidth:"20rem"}}>
         <Img style={{ height: `17rem`}} variant="top" fluid={props.data.project1.childImageSharp.fluid} />
         <Card.Body>
           <Card.Title className={projectStyle.cardTitle}
@@ -33,7 +33,7 @@ const ProjectsPage = (props) => (
           <Button variant="info" href="https://github.com/sharonk1295/Odd-One-Out" target="_blank" rel="noreferrer">GitHub Code</Button></div>
         </Card.Body>
       </Card>
-      <Card className={projectStyle.card} className="shadow p-3 mb-5 bg-white rounded">
+      <Card className={projectStyle.card} className="shadow p-3 mb-5 bg-white rounded" style={{minWidth:"20rem", maxWidth:"20rem"}}>
         <Img style={{ height: `17rem`}} variant="top" fluid={props.data.project2.childImageSharp.fluid} />
         <Card.Body>
           <Card.Title className={projectStyle.cardTitle}>
@@ -46,14 +46,27 @@ const ProjectsPage = (props) => (
           <Button variant="info" href="https://github.com/sharonk1295/project_2" target="_blank" rel="noreferrer">GitHub Code</Button></div>
         </Card.Body>
       </Card>
-      <Card className={projectStyle.card} className="shadow p-3 mb-5 bg-white rounded">
+      <Card className={projectStyle.card} className="shadow p-3 mb-5 bg-white rounded" style={{minWidth:"20rem", maxWidth:"20rem"}}>
+        <Img style={{ height: `17rem`}} variant="top" fluid={props.data.project3.childImageSharp.fluid} />
+        <Card.Body>
+          <Card.Title className={projectStyle.cardTitle}>
+            GIFTED
+          </Card.Title>
+          <Card.Text>
+            Project 3: An app that keeps track of the gifts you've ever given to prevent any future gift overlaps. Collaborating with 2 other developers, this app was created with the MERN stack to have full CRUD functionality and Sass/CSS styling.
+          </Card.Text>
+          <div className={projectStyle.buttons}><Button variant="info" href="https://floating-caverns-88204.herokuapp.com/" target="_blank" rel="noreferrer">Live Site</Button>
+          <Button variant="info" href="https://github.com/sharonk1295/gifted-project" target="_blank" rel="noreferrer">GitHub Code</Button></div>
+        </Card.Body>
+      </Card>
+      <Card className={projectStyle.card} className="shadow p-3 mb-5 bg-white rounded" style={{minWidth:"20rem", maxWidth:"20rem"}}>
         <Img style={{ height: `17rem`}} variant="top" fluid={props.data.project4.childImageSharp.fluid} />
         <Card.Body>
           <Card.Title className={projectStyle.cardTitle}>
             A Dietitian's Blog
           </Card.Title>
           <Card.Text>
-            Project 3: A website built for a clinical dietitian/ nutritionist. Built using Gatsby, GraphQL, and Contentful for the client to easily maintain a blog on her own.
+            Project 4: A website built for a clinical dietitian/ nutritionist. Built using Gatsby, GraphQL, and Contentful for the client to easily maintain a blog on her own.
           </Card.Text>
           <div className={projectStyle.buttons}><Button variant="info" href="https://sungeunsul.netlify.app/" target="_blank" rel="noreferrer">Live Site</Button>
           <Button variant="info" href="https://github.com/sharonk1295/project-4-sungeun" target="_blank" rel="noreferrer">GitHub Code</Button></div>
@@ -86,6 +99,13 @@ export const query = graphql`
         }
       }
     }
+  project3: file(relativePath: { eq: "gifted.png" }) {
+    childImageSharp {
+      fluid {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
   }
 `
 

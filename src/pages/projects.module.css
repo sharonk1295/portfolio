@@ -5,6 +5,8 @@
 .card-deck {
     display: flex;
     flex-flow: row wrap;
+    /* margin-left: 2rem; */
+    justify-content: center;
 }
 .card {
     width: 18rem;

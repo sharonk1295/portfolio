@@ -27,7 +27,9 @@ const ProjectsPage = (props) => (
           >Odd One Out!
           </Card.Title>
           <Card.Text>
-            Project 1: A trivia game built using HTML, CSS, JavaScript, and jQuery. User must find the odd character/item out of desired category.
+            <b>Project 1: </b>A trivia game that focuses on finding the odd one out. The user must choose the character/item that does not belong to the desired category (music, movies, TV shows). <br/>
+            <br/>
+            <b>Technologies Used: </b>HTML, CSS, JavaScript, and jQuery
           </Card.Text>
           <div className={projectStyle.buttons}><Button variant="info" href="https://sharonk1295.github.io/Odd-One-Out/" target="_blank" rel="noreferrer">Live Site</Button>
           <Button variant="info" href="https://github.com/sharonk1295/Odd-One-Out" target="_blank" rel="noreferrer">GitHub Code</Button></div>
@@ -40,7 +42,9 @@ const ProjectsPage = (props) => (
             What's On Your Vanity?
           </Card.Title>
           <Card.Text>
-            Project 2: A MERN-stack app built with full CRUD functionality. User is able to keep track of his/her skincare products (very useful for skincare junkies!)  
+            <b>Project 2: </b>An app built to have full CRUD functionality using the 7 RESTful routes. User is able to keep track of his/her skincare products (very useful for skincare junkies!)<br/>
+            <br/>
+            <b>Technologies Used: </b> CSS, Bootstrap, JavaScript, Node.js, Mongoose, MongoDB, Express and JSX
           </Card.Text>
           <div className={projectStyle.buttons}><Button variant="info" href="https://sharonkim-unit2-project.herokuapp.com/" target="_blank" rel="noreferrer">Live Site</Button>
           <Button variant="info" href="https://github.com/sharonk1295/project_2" target="_blank" rel="noreferrer">GitHub Code</Button></div>
@@ -53,7 +57,9 @@ const ProjectsPage = (props) => (
             GIFTED
           </Card.Title>
           <Card.Text>
-            Project 3: An app that keeps track of the gifts you've ever given to prevent any future gift overlaps. Collaborating with 2 other developers, this app was created with the MERN stack to have full CRUD functionality and Sass/CSS styling.
+            <b>Project 3: </b>An app, built with full CRUD, that keeps track of recipients and the gifts you've ever given to prevent any future gift overlaps. Collaborated with 2 other developers.<br/>
+            <br/>
+            <b>Technologies Used: </b> The MERN stack (MongoDB, Express, React, and Node.js), CSS/SCSS and Bootstrap
           </Card.Text>
           <div className={projectStyle.buttons}><Button variant="info" href="https://floating-caverns-88204.herokuapp.com/" target="_blank" rel="noreferrer">Live Site</Button>
           <Button variant="info" href="https://github.com/sharonk1295/gifted-project" target="_blank" rel="noreferrer">GitHub Code</Button></div>
@@ -66,7 +72,9 @@ const ProjectsPage = (props) => (
             A Dietitian's Blog
           </Card.Title>
           <Card.Text>
-            Project 4: A website built for a clinical dietitian/ nutritionist. Built using Gatsby, GraphQL, and Contentful for the client to easily maintain a blog on her own.
+            <b>Project 4: </b>A website built for a clinical dietitian/ nutritionist. She is able to maintain a blog (full CRUD functionality) and online presence.<br/>
+            <br/>
+            <b>Technologies Used: </b>Gatsby, GraphQL, Contentful, CSS/SCSS
           </Card.Text>
           <div className={projectStyle.buttons}><Button variant="info" href="https://sungeunsul.netlify.app/" target="_blank" rel="noreferrer">Live Site</Button>
           <Button variant="info" href="https://github.com/sharonk1295/project-4-sungeun" target="_blank" rel="noreferrer">GitHub Code</Button></div>

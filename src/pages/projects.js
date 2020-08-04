@@ -21,18 +21,18 @@ const ProjectsPage = (props) => (
 
     <CardDeck className={projectStyle.cardDeck}>
       <Card className={projectStyle.card} className="shadow p-3 mb-5 bg-white rounded" style={{minWidth:"20rem", maxWidth:"20rem"}}>
-        <Img style={{ height: `17rem`}} variant="top" fluid={props.data.project1.childImageSharp.fluid} />
+        <Img style={{ height: `17rem`}} variant="top" fluid={props.data.project4.childImageSharp.fluid} />
         <Card.Body>
           <Card.Title className={projectStyle.cardTitle}
-          >Odd One Out!
+          >A Dietitian's Blog
           </Card.Title>
           <Card.Text>
-            <b>Project 1: </b>A trivia game that focuses on finding the odd one out. The user must choose the character/item that does not belong to the desired category (music, movies, TV shows). <br/>
+          A website built for a clinical dietitian/ nutritionist. She is able to maintain a blog (full CRUD functionality) and online presence.<br/>
             <br/>
-            <b>Technologies Used: </b>HTML, CSS, JavaScript, and jQuery
+            <b>Technologies Used: </b>Gatsby, GraphQL, Contentful, CSS/SCSS
           </Card.Text>
-          <div className={projectStyle.buttons}><Button variant="info" href="https://sharonk1295.github.io/Odd-One-Out/" target="_blank" rel="noreferrer">Live Site</Button>
-          <Button variant="info" href="https://github.com/sharonk1295/Odd-One-Out" target="_blank" rel="noreferrer">GitHub Code</Button></div>
+          <div className={projectStyle.buttons}><Button variant="info" href="https://sungeunsul.netlify.app/" target="_blank" rel="noreferrer">Live Site</Button>
+          <Button variant="info" href="https://github.com/sharonk1295/project-4-sungeun" target="_blank" rel="noreferrer">GitHub Code</Button></div>
         </Card.Body>
       </Card>
       <Card className={projectStyle.card} className="shadow p-3 mb-5 bg-white rounded" style={{minWidth:"20rem", maxWidth:"20rem"}}>
@@ -42,7 +42,7 @@ const ProjectsPage = (props) => (
             What's On Your Vanity?
           </Card.Title>
           <Card.Text>
-            <b>Project 2: </b>An app built to have full CRUD functionality using the 7 RESTful routes. User is able to keep track of his/her skincare products (very useful for skincare junkies!)<br/>
+            An app built to have full CRUD functionality using the 7 RESTful routes. User is able to keep track of his/her skincare products (very useful for skincare junkies!)<br/>
             <br/>
             <b>Technologies Used: </b> CSS, Bootstrap, JavaScript, Node.js, Mongoose, MongoDB, Express and JSX
           </Card.Text>
@@ -57,7 +57,7 @@ const ProjectsPage = (props) => (
             GIFTED
           </Card.Title>
           <Card.Text>
-            <b>Project 3: </b>An app, built with full CRUD, that keeps track of recipients and the gifts you've ever given to prevent any future gift overlaps. Collaborated with 2 other developers.<br/>
+            An app, built with full CRUD, that keeps track of recipients and the gifts you've ever given to prevent any future gift overlaps. Collaborated with 2 other developers.<br/>
             <br/>
             <b>Technologies Used: </b> The MERN stack (MongoDB, Express, React, and Node.js), CSS/SCSS and Bootstrap
           </Card.Text>
@@ -66,18 +66,18 @@ const ProjectsPage = (props) => (
         </Card.Body>
       </Card>
       <Card className={projectStyle.card} className="shadow p-3 mb-5 bg-white rounded" style={{minWidth:"20rem", maxWidth:"20rem"}}>
-        <Img style={{ height: `17rem`}} variant="top" fluid={props.data.project4.childImageSharp.fluid} />
+        <Img style={{ height: `17rem`}} variant="top" fluid={props.data.project1.childImageSharp.fluid} />
         <Card.Body>
           <Card.Title className={projectStyle.cardTitle}>
-            A Dietitian's Blog
+            Odd One Out!
           </Card.Title>
           <Card.Text>
-            <b>Project 4: </b>A website built for a clinical dietitian/ nutritionist. She is able to maintain a blog (full CRUD functionality) and online presence.<br/>
+            A trivia game that focuses on finding the odd one out. The user must choose the character/item that does not belong to the desired category (music, movies, TV shows).<br/>
             <br/>
-            <b>Technologies Used: </b>Gatsby, GraphQL, Contentful, CSS/SCSS
+            <b>Technologies Used: </b>HTML, CSS (mainly modals and animations), JavaScript, and jQuery
           </Card.Text>
-          <div className={projectStyle.buttons}><Button variant="info" href="https://sungeunsul.netlify.app/" target="_blank" rel="noreferrer">Live Site</Button>
-          <Button variant="info" href="https://github.com/sharonk1295/project-4-sungeun" target="_blank" rel="noreferrer">GitHub Code</Button></div>
+          <div className={projectStyle.buttons}><Button variant="info" href="https://sharonk1295.github.io/Odd-One-Out/" target="_blank" rel="noreferrer">Live Site</Button>
+          <Button variant="info" href="https://github.com/sharonk1295/Odd-One-Out" target="_blank" rel="noreferrer">GitHub Code</Button></div>
         </Card.Body>
       </Card>
     </CardDeck>

@@ -1,7 +1,7 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
-  <a href="https://sharonkim.dev/">
-    <img alt="Gatsby" src="./images/sharon-logo.png" width="60" />
+  <a href="https://sharonkim.dev/" target="_blank">
+    <img alt="Gatsby" src="../images/sharon-logo.png" width="60" />
   </a>
 </p>
 <h1 align="center">
@@ -21,6 +21,6 @@
 
 
 
-Check out my portfolio [here](https://sharonkim.dev/). 
+Check out my portfolio [here](https://sharonkim.dev/){:target="_blank" rel="noopener"}. 
 
 <!-- AUTO-GENERATED-CONTENT:END -->

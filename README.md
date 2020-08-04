@@ -1,7 +1,7 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://sharonkim.dev/" target="_blank">
-    <img alt="Sharon-Logo" src="/images/sharon-logo.png" width="60" />
+    <img alt="Sharon-Logo" src="/images/sharon-logo.png" raw=true width="60" />
   </a>
 </p>
 <h1 align="center">

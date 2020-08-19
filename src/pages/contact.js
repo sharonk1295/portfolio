@@ -13,14 +13,14 @@ const Contact = () => (
     <h1 className={contactStyles.header}>
       Let's Connect!
     </h1>
-    <p>Want to work together? Have a question? Feel free to reach me at &nbsp;
-      <IconContext.Provider value={{color: `pink`, size: `1.5rem`}}>
+    <p className={contactStyles.info}>Want to work together? Have a question? Feel free to reach me at &nbsp;
+      <IconContext.Provider value={{color: `RGBA(214,123,182,0.7)`, size: `1.5rem`}}>
         <MdEmail />
       </IconContext.Provider>
-       <b>sharonk1295@gmail.com</b></p>
+       <b> sharonk1295@gmail.com</b></p>
     <p className={contactStyles.optionsTitle}>You can also connect with me via:</p>
     <div className={contactStyles.options}>
-      <IconContext.Provider value={{color: `pink`, size: `4rem`}}>
+      <IconContext.Provider value={{color: `RGBA(214,123,182,0.7)`, size: `4rem`}}>
       <a href="https://www.linkedin.com/in/sharon-kim-sk/" target="_blank" rel="noreferrer"><FaLinkedin aria-label="Mute volume"/></a>
       <a href="https://github.com/sharonk1295" target="_blank" rel="noreferrer"><FaGithub aria-label="Mute volume"/></a>
       <a href="https://medium.com/@sharonk1295_18369" target="_blank" rel="norefeerer"><FaMediumM aria-label="Mute volume"/></a>

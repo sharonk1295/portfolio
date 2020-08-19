@@ -1,6 +1,10 @@
 .projects-title {
     font-family: 'Barlow Semi Condensed', sans-serif;
     letter-spacing: 1px;
+    text-align: center;
+}
+.projects-intro {
+    text-align: center;
 }
 .card-deck {
     display: flex;

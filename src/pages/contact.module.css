@@ -1,6 +1,10 @@
 .header {
     font-family: 'Barlow Semi Condensed', sans-serif;
-    letter-spacing: 1px
+    letter-spacing: 1px;
+    text-align: center;
+}
+.info {
+    text-align: center;
 }
 .options {
     display: flex;

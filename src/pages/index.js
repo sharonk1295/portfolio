@@ -11,9 +11,9 @@ import indexStyles from "./index.module.css"
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
   query {
-    indexPic: file(relativePath: { eq: "profile_photo.jpeg" }) {
+    indexPic: file(relativePath: { eq: "cartoon_engineer.png" }) {
       childImageSharp {
-        fluid(maxWidth: 1000, maxHeight: 1000, quality: 100) {
+        fluid(quality: 100) {
           ...GatsbyImageSharpFluid
         }
       }
@@ -22,7 +22,7 @@ const IndexPage = () => {
 `)
 
   return (
-    <BackgroundImage fluid={data.indexPic.childImageSharp.fluid} fadeIn={true}>
+    <BackgroundImage id="mybg" fluid={data.indexPic.childImageSharp.fluid} fadeIn={true}>
       <Layout>
         <SEO title="Home" />
           <div className={indexStyles.background}>

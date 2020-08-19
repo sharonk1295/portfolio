@@ -18,10 +18,12 @@ const About = (props) => (
     <SEO title="About" />
     <h1 style={{
       fontFamily: `Barlow Semi Condensed, sans-serif`,
-      letterSpacing: `1px`
+      letterSpacing: `1px`,
+      textAlign: `center`
     }}>Who is Sharon?</h1>
     <p style={{
-      marginBottom: `2rem`
+      textAlign: `center`,
+      marginBottom: `2rem`,
     }}>I am a software engineer based in NYC, with a knack for solving problems. Being multi-disciplined, you can expect to see me engaging in other activities when I'm not coding by my desk. Don't be a stranger and get to know the other many hats I wear!</p>
 
     <Carousel style={{minHeight: `90%`, minWidth: `91%`, maxWidth: `91%`, margin: `0 auto`}}>

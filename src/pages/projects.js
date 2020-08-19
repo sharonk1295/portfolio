@@ -17,7 +17,7 @@ const ProjectsPage = (props) => (
     <SEO title="Projects" />
     <h1 className={projectStyle.projectsTitle}
     >PROJECTS</h1>
-    <p>Utilized technologies such as HTML5, CSS, JavaScript, React, Express, MongoDB, Gatsby, etc. Curating my curiosity of new technologies, I am always learning and building new apps, so come back soon to view more!</p>
+    <p className={projectStyle.projectsIntro}>Utilized technologies such as HTML5, CSS, JavaScript, React, Express, MongoDB, Gatsby, etc. This site was built with Gatsby.js and GraphQL. Curating my curiosity of new technologies, I am always learning and building new apps, so come back soon to view more!</p>
 
     <CardDeck className={projectStyle.cardDeck}>
       <Card className={projectStyle.card} className="shadow p-3 mb-5 bg-white rounded" style={{minWidth:"20rem", maxWidth:"20rem"}}>

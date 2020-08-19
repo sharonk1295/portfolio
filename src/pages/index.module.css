@@ -1,6 +1,13 @@
+#mybg {
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: auto;
+}
+
 .background {
     height: 80vh;
-    padding: 5rem 3rem;
+    padding: 4rem 3rem;
 }
 .background h1 {
     font-family: 'Barlow Semi Condensed', sans-serif;
@@ -9,35 +16,52 @@
     text-shadow: white 1px 1px;
 }
 .background p {
-    color: rgb(83, 81, 83);
+    color: rgb(112, 110, 112);
     font-weight: 600;
     text-shadow: white 1px 1px;
 }
 .background button {
     padding: 5px 6px;
     border-radius: 10px; 
-    background-color: rgba(224, 73, 161, 0.781);
     outline: none;
+    /* background-color: rgba(224, 73, 161, 0.781);
     border: rgba(233, 133, 201, 0.897);
+    border-style: groove; */
+    background-color: white;
+    border: white;
     border-style: groove;
 }
 .background button:hover {
-    background-color: rgba(245, 245, 245, 0.8);
+    /* background-color: rgba(245, 245, 245, 0.8);
     border: whitesmoke;
+    border-style: groove; */
+    transform: translate(2px, 2px);
+    background-color: rgba(224, 73, 161, 0.781);
+    border: rgba(233, 133, 201, 0.93);
     border-style: groove;
+    
 }
 .background button:hover a {
-    color: rgb(128, 0, 90);
-    text-decoration: none;
+    /* color: rgb(128, 0, 90);
+    text-decoration: none; */
+    color: whitesmoke;
+    font-weight: 600;
 }
 .background button a {
-    color: whitesmoke;
+    /* color: whitesmoke;
+    font-weight: 600; */
+    /* color: rgb(128, 0, 90); */
+    color: rgb(83, 81, 83);
+    text-decoration: none;
     font-weight: 600;
 }
 
 @media only screen and (max-width: 460px) {
     .background {
         padding: 2rem 1rem;
+    }
+    .background p {
+        color: gray;
     }
 }
 

@@ -29,9 +29,9 @@ const ProjectsPage = (props) => (
           <Card.Text>
           A website built for a clinical dietitian/ nutritionist. She is able to maintain a blog (full CRUD functionality) and online presence.<br/>
             <br/>
-            <b>Technologies Used: </b>Gatsby, GraphQL, Contentful, CSS/SCSS
+            <b>Technologies Used: </b>Gatsby, GraphQL, Contentful, CSS/Sass
           </Card.Text>
-          <div className={projectStyle.buttons}><Button variant="info" href="https://sungeunsul.netlify.app/" target="_blank" rel="noreferrer">Live Site</Button>
+          <div className={projectStyle.buttons} style={{marginTop: `7.5rem`}}><Button variant="info" href="https://sungeunsul.netlify.app/" target="_blank" rel="noreferrer">Live Site</Button>
           <Button variant="info" href="https://github.com/sharonk1295/project-4-sungeun" target="_blank" rel="noreferrer">GitHub Code</Button></div>
         </Card.Body>
       </Card>

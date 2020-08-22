@@ -13,7 +13,7 @@ const IndexPage = () => {
   query {
     indexPic: file(relativePath: { eq: "cartoon_engineer.png" }) {
       childImageSharp {
-        fluid(quality: 100) {
+        fluid(maxWidth: 3080, quality: 100) {
           ...GatsbyImageSharpFluid
         }
       }

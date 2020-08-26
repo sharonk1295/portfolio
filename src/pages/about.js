@@ -7,6 +7,9 @@ import Img from "gatsby-image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+import { IconContext } from "react-icons"
+import { FaLaptopCode } from "react-icons/fa"
+
 const capStyle = {
   textShadow: `1px 1px gray`,
   marginTop: `-2px`,
@@ -21,6 +24,12 @@ const About = (props) => (
       letterSpacing: `1px`,
       textAlign: `center`
     }}>Who is Sharon?</h1>
+    <p style={{textAlign: `center`}}>
+      <IconContext.Provider value={{color: `pink`, size: `2rem`}}>
+        <FaLaptopCode />
+      </IconContext.Provider> 
+     Transitioning from sociology and education into the programming realm, I couldn't be more content with the career change. Implementing my acquired skills from all career fields, I strive to be a better, patient, and collaborative developer everyday. My approach to web development is simple: <strong>Build With The User In Mind</strong>. Having a well-functioning website/app is great, but what is the point if the visuals don't serve enough of a unique experience for the user to return?
+    </p>
     <p style={{
       textAlign: `center`,
       marginBottom: `2rem`,

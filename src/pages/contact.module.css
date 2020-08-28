@@ -5,6 +5,8 @@
 }
 .info {
     text-align: center;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    text-shadow: lightgray 0.5px 0.5px;
 }
 .options {
     display: flex;

@@ -24,7 +24,7 @@ const About = (props) => (
       letterSpacing: `1px`,
       textAlign: `center`
     }}>Who is Sharon?</h1>
-    <p style={{textAlign: `center`}}>
+    <p style={{textAlign: `center`, fontFamily: `Barlow Semi Condensed, sans-serif`, textShadow: `lightgray 0.5px 0.5px`}}>
       <IconContext.Provider value={{color: `pink`, size: `2rem`}}>
         <FaLaptopCode />
       </IconContext.Provider> 
@@ -33,6 +33,8 @@ const About = (props) => (
     <p style={{
       textAlign: `center`,
       marginBottom: `2rem`,
+      fontFamily: `Barlow Semi Condensed, sans-serif`,
+      textShadow: `lightgray 0.5px 0.5px`
     }}>I am a software engineer based in NYC, with a knack for solving problems. Being multi-disciplined, you can expect to see me engaging in other activities when I'm not coding by my desk. Don't be a stranger and get to know the other many hats I wear!</p>
 
     <Carousel style={{minHeight: `90%`, minWidth: `91%`, maxWidth: `91%`, margin: `0 auto`}}>

@@ -5,6 +5,10 @@
 }
 .projects-intro {
     text-align: center;
+    /* font-family: 'Abel', sans-serif; */
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    /* font-weight: bold; */
+    text-shadow: lightgray 0.5px 0.5px;
 }
 .card-deck {
     display: flex;
